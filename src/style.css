@@ -1,0 +1,51 @@
+h1{
+    color: red;
+    font-size: 100px;
+    font-weight: 900;
+}
+
+
+ul{
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    width: 1000px;
+     outline: 1px solid red;
+     display: grid;
+     grid-template-columns: repeat(3,1fr);
+     gap: 50px;
+}
+
+li{
+    padding: 10px;
+    outline: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all 1s;
+
+  
+}
+
+li:hover{
+    transform: translateY(-10px) scale(1.1);
+    background-color: gray;
+
+      h2,p{
+        color: red;
+    }
+}
+
+h2{
+    font-size: 28px;
+    width: 150px;
+    text-align: center;
+    transition: all 1s;
+
+}
+
+p{
+    font-size: 28px;
+     transition: all 1s;
+}

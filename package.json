@@ -1,0 +1,28 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "start": "npx parcel src/index.html",
+    "build": "parcel build src/index.html --public-url /test/",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Horbunov-Yurii/test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Horbunov-Yurii/test/issues"
+  },
+  "homepage": "https://github.com/Horbunov-Yurii/test#readme",
+  "dependencies": {
+    "gh-pages": "^6.3.0",
+    "parcel": "^2.16.4"
+  }
+}
