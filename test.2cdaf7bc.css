@@ -1,5 +1,48 @@
 h1 {
   color: red;
   font-size: 100px;
+  font-weight: 900;
+}
+
+ul {
+  outline: 1px solid red;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+  width: 1000px;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+  display: grid;
+}
+
+li {
+  border-radius: 10px;
+  outline: 1px solid #000;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  transition: all 1s;
+  display: flex;
+}
+
+li:hover {
+  background-color: gray;
+  transform: translateY(-10px) scale(1.1);
+
+  & h2, & p {
+    color: red;
+  }
+}
+
+h2 {
+  text-align: center;
+  width: 150px;
+  font-size: 28px;
+  transition: all 1s;
+}
+
+p {
+  font-size: 28px;
+  transition: all 1s;
 }
 /*# sourceMappingURL=test.2cdaf7bc.css.map */
